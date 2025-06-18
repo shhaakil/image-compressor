@@ -1,0 +1,5 @@
+{
+  "name": "Modern Image Compressor UI",
+  "description": "A sleek web interface for an image compressor app, featuring drag-and-drop upload, progress display, and a download option. Styled with Tailwind CSS for a modern, professional look.",
+  "requestFramePermissions": []
+}

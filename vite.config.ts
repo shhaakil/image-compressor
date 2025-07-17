@@ -1,9 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-const isGithubPages = process.env.GITHUB_PAGES === 'true'
+import react from '@vitejs/plugin-react' // or vue/svelte
 
 export default defineConfig({
   plugins: [react()],
-  base: isGithubPages ? '/image-compressor/' : '/',
+  base: '/', // MUST be '/' for Vercel
 })
